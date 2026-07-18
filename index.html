@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="https://kit.fontawesome.com/b0cb3eeadd.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <h1 id="name" class="honk-font">Andrii Voitenko</h1>
+      <ul class="contacts-list">
+        <li class="accent">Kyiv, Ukraine</li>
+        <li class="accent reference"><a href="mailto:andrii.voitenko@proton.me">E-mail</a></li>
+        <li class="accent reference"><a href="https://t.me/andriiv73">Telegram</a></li>
+        <li class="accent reference"><a href="https://github.com/a-voitenko37">Github</a></li>
+      </ul>
+    </header>
+    <main>
+      <section class="card">
+        <h2>Summary</h2>
+        <p>
+          Junior JavaScript developer. Actively studying web development. I create my own projects on Node.js.
+          I have practical experience in developing REST APIs, working with relational and document-oriented
+          databases, implementing user authentication, containerizing applications using Docker, and
+          documenting APIs. I also have experience working with an ERP system based on 1C as a Support
+          Analyst.
+        </p>
+      </section>
+      <section class="card">
+        <section id="tech-skills">
+          <h3>Tech Skills</h3>
+          <ul id="skills-list">
+            <li>JavaScript/TypeScript</li>
+            <li>SQL</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>Nest.js</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="languages-header">Languages:</h3>
+          <ul id="language-list">
+            <li>Ukrainian: Native</li>
+            <li>English: A2</li>
+          </ul>
+        </section>
+      </section>
+      <section class="card">
+        <h3>Projects</h3>
+        <article>
+          <section class="header-section">
+            <a class="git-icon" href="https://github.com/a-voitenko37/todo-app"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <h4>Todo App:</h4>
+          </section>
+          <p class="project-description">
+            REST API for managing todo lists using clean architectural principles. Main technologies:
+            Node.js/Express, TypeScript, MongoDB/Mongoose. Main functionality: user authorization using
+            express-session, CRUD operations for manipulating the todo list.
+          </p>
+        </article>
+        <article>
+          <section class="header-section">
+            <a class="git-icon" href="https://github.com/a-voitenko37/library"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <h4>Library</h4>
+          </section>
+          <p class="project-description">
+            REST API for managing a book library. Main technologies: Node.js/Express, TypeScript, PostgreSQL,
+            MongoDB (session storage). Session authorization via express-session. Validation via Zod. Saving
+            information to the database using pg. Loading images using Multer.
+          </p>
+        </article>
+        <article>
+          <section class="header-section">
+            <a class="git-icon" href="https://github.com/a-voitenko37/myswapi"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <h4>Star Wars API</h4>
+          </section>
+          <p class="project-description">
+            REST API based on Star Wars api with a focus on scalability and security. Node.js/NestJs,
+            TypesScript, PostgreSQL. Implemented JWT user authorization. Working with PostgreSQL using
+            TypeORM. Uploading images to AWS S3. Swager documentation.
+          </p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
